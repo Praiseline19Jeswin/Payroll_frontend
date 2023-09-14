@@ -1,0 +1,23 @@
+document.getElementById("dis").onclick=function(){
+    document.getElementById("code1").innerHTML+=document.getElementById("code").value;
+    document.getElementById("des1").innerHTML+=document.getElementById("des").value;
+    document.getElementById("dob1").innerHTML+=document.getElementById("dob").value;
+    document.getElementById("name1").innerHTML+=document.getElementById("name").value;
+    document.getElementById("doj1").innerHTML+=document.getElementById("doj").value;
+    document.getElementById("age1").innerHTML+=document.getElementById("age").value;
+    document.getElementById("exp1").innerHTML+=document.getElementById("exp").value;
+    document.getElementById("gen1").innerHTML+=document.getElementById("gen").value;
+    document.getElementById("id2").innerHTML+=document.getElementById("id1").value;
+    document.getElementById("email1").innerHTML+=document.getElementById("email").value;
+    document.getElementById("num1").innerHTML+=document.getElementById("num").value;
+    document.getElementById("loc1").innerHTML+=document.getElementById("loc").value;
+    document.getElementById("stat1").innerHTML+=document.getElementById("stat").value;
+    document.getElementById("add1").innerHTML+=document.getElementById("add").value;
+    document.getElementById("net1").innerHTML+=(((document.getElementById("day").value-document.getElementById("abs").value)+((document.getElementById("med").value)*1))*1000)-((document.getElementById("pf").value)*1)-(document.getElementById("con").value)*1;
+}
+document.getElementById("clr").onclick=function(){
+    location.reload()
+}
+document.getElementById("calc").onclick=function(){
+    document.getElementById("net").value+=(((document.getElementById("day").value-document.getElementById("abs").value)+((document.getElementById("med").value)*1))*1000)-((document.getElementById("pf").value)*1)-(document.getElementById("con").value)*1;
+}

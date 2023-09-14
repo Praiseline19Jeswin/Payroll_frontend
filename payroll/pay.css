@@ -1,0 +1,173 @@
+*{
+    box-sizing: border-box;
+}
+#head1{
+    background-color: rgb(225, 219, 219);;
+}
+#left{
+    display: grid;
+    float:left;
+    height: 800px;
+    width: 750px;
+    border: 3px solid black;
+}
+#code{
+    background-color: lightyellow;
+}
+#des{
+    background-color: lightyellow;
+}
+#dob{
+    background-color: lightyellow;
+}
+#name{
+    background-color: lightyellow;
+}
+#doj{
+    background-color: lightyellow;
+}
+#age{
+    background-color: lightyellow;
+}
+#exp{
+    background-color: lightyellow;
+}
+#gen{
+    background-color: lightyellow;
+}
+#id1{
+    background-color: lightyellow;
+}
+#email{
+    background-color: lightyellow;
+}
+#num{
+    background-color: lightyellow;
+}
+#loc{
+    background-color: lightyellow;
+}
+#stat{
+    background-color: lightyellow;
+}
+#add{
+    background-color: lightyellow;
+}
+#righttop{
+    display: grid;
+    float: right;
+    height: 398px;
+    width: 750px;
+    border: 3px solid black;
+    position: relative;
+    grid-template-areas: 
+    "w x"
+    "o p"
+    "q r"
+    "s t"
+    "u v"
+    "y z"
+}
+#head2{
+    background-color: rgb(225, 219, 219);
+    grid-area: w/w/x/x;
+}
+#mon{
+    grid-area: o;
+    background-color: bisque;
+}
+#dat{
+    grid-area: p;
+    background-color: bisque;
+}
+#day{
+    grid-area: q;
+    background-color: bisque;
+}
+#abs{
+    grid-area: r;
+    background-color: bisque;
+}
+#med{
+    grid-area: s;
+    background-color: bisque;
+}
+#pf{
+    grid-area: t;
+    background-color: bisque;
+}
+#con{
+    grid-area: u;
+    background-color: bisque;
+}
+#net{
+    grid-area: v;
+    background-color: bisque;
+}
+#calc{
+    background-color: orange;
+    cursor: pointer;
+}
+#sav{
+    background-color: green;
+    cursor: pointer;
+}
+#clr{
+    background-color: grey;
+    cursor: pointer;
+}
+#up{
+    background-color: blue;
+    cursor: pointer;
+}
+#del{
+    background-color: rgb(202, 66, 66);
+    cursor: pointer;
+}
+#dis{
+    background-color: palevioletred;
+    cursor: pointer;
+}
+#rightdown{
+    position: absolute;
+    display: grid;
+    border: 3px black solid;
+    height: 398px;
+    width: 750px;
+    margin: 400px 755px;
+    grid-template-areas: 
+    "1 2"
+    "3 4"
+    "5 6"
+    "7 8";
+}
+#code1{
+    grid-area: 1;
+}
+#des1{
+    grid-area: 2;
+}
+#dob1{
+    grid-area: 3;
+}
+#name1{
+    grid-area: 4;
+}
+#doj1{
+    grid-area: 5;
+}
+#age1{
+    grid-area: 6;
+}
+#exp1{
+    grid-area: 7;
+}
+#gen1{
+    grid-area: 8;
+}
+@media all and (min-width: 600px){
+    body{
+        height: 100%;
+        width: 99%;
+    }
+}
